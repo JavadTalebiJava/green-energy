@@ -1,13 +1,20 @@
 package com.greenenergy.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
 /**
  * Initial process storage representation.
  */
+@Data
 @Entity
 @Table(name = "initial_process")
+@NoArgsConstructor
+@AllArgsConstructor
 public class InitialProcess implements Serializable {
 
     private static final long serialVersionUID = -1629623023107819784L;
@@ -19,35 +26,4 @@ public class InitialProcess implements Serializable {
     @Enumerated(EnumType.STRING)
     private InitialProcessStatus status;
 
-    public InitialProcess() {
-    }
-
-    public InitialProcess(Long id, InitialProcessStatus status) {
-        this.id = id;
-        this.status = status;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public InitialProcessStatus getStatus() {
-        return status;
-    }
-
-    public void setStatus(InitialProcessStatus status) {
-        this.status = status;
-    }
-
-    @Override
-    public String toString() {
-        return "InitialProcess{" +
-                "id=" + id +
-                ", status=" + status +
-                '}';
-    }
 }
