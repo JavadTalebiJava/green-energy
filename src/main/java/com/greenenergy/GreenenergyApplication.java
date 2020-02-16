@@ -1,4 +1,4 @@
-package com.greenenergy.greenenergy;
+package com.greenenergy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
