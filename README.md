@@ -38,7 +38,7 @@ Tasks:
   
    * Green Energy Application:
      * To start the application run CrossSolarApplication.java main method from your IDE
-       and to check that it is running open `http://localhost:8080/api/panels/1234567890123456/hourly` from your browser.
+       and to check that it is running open `http://localhost:8080/panels/1234567890123456/hourly` from your browser.
 
 
  
