@@ -1,9 +1,7 @@
 package com.greenenergy.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -15,8 +13,6 @@ import java.time.LocalDateTime;
 @Data
 @Entity
 @Table(name = "daily_electricity")
-@AllArgsConstructor
-@NoArgsConstructor
 public class DailyElectricity implements Serializable {
     private static final long serialVersionUID = -2291797968183794145L;
 
@@ -44,8 +40,8 @@ public class DailyElectricity implements Serializable {
     @Column(name = "reading_at")
     private LocalDateTime readingAt;
 
-   /* public DailyElectricity() {
-    }
+  public DailyElectricity() {
+  }
 
     public DailyElectricity(Panel panel, Long generatedElectricitySum, Long generatedElectricityMin,
                             Long generatedElectricityMax, Double generatedElectricityAverage, LocalDateTime readingAt) {
@@ -55,7 +51,6 @@ public class DailyElectricity implements Serializable {
         this.generatedElectricityMax = generatedElectricityMax;
         this.generatedElectricityAverage = generatedElectricityAverage;
         this.readingAt = readingAt;
-    }*/
-
+    }
 
 }

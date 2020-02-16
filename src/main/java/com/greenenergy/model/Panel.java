@@ -1,7 +1,9 @@
 package com.greenenergy.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.lang.Nullable;
 
 import javax.persistence.*;
@@ -14,6 +16,8 @@ import java.io.Serializable;
 @Data
 @Entity
 @Table(name = "panel")
+@AllArgsConstructor
+@NoArgsConstructor
 public class Panel implements Serializable {
 
   private static final long serialVersionUID = -8527695980909864257L;
@@ -38,4 +42,7 @@ public class Panel implements Serializable {
   private String brand;
 
 
+  public Panel(Long panelId) {
+    this.id = panelId;
+  }
 }
