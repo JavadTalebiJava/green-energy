@@ -7,6 +7,8 @@ import java.util.List;
 
 /**
  * Repository for all operations related to {@link DailyElectricity}.
+ *
+ * @author javad talebi
  */
 public interface DailyElectricityRepository extends CrudRepository<DailyElectricity, Long> {
 

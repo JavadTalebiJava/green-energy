@@ -27,6 +27,8 @@ import static com.greenenergy.bg.DailyElectricityAggregatorJob.ZONE_ID;
 
 /**
  * Class responsible to verify and process the first initial data.
+ *
+ * @author javad talebi
  */
 @Component
 public class InitialProcessJob implements CommandLineRunner {

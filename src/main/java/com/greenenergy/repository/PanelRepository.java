@@ -2,10 +2,11 @@ package com.greenenergy.repository;
 
 import com.greenenergy.model.Panel;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
  * PanelRepository allows all operations to Panel Entity.
+ *
+ * @author javad talebi
  */
 public interface PanelRepository extends JpaRepository<Panel, Long> {
 

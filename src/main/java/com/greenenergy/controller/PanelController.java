@@ -16,6 +16,8 @@ import java.util.List;
 
 /**
  * Panel Controller for all Rest APIs related to Panel.
+ *
+ * @author javad talebi
  */
 @RestController
 @RequestMapping("/panels")

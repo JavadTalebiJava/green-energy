@@ -19,6 +19,8 @@ import static org.mockito.Mockito.when;
 
 /**
  * Unit tests for {@link PanelService}.
+ *
+ * @author javad talebi
  */
 public class PanelServiceTest {
 

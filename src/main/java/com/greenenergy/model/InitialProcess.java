@@ -9,6 +9,8 @@ import java.io.Serializable;
 
 /**
  * Initial process storage representation.
+ *
+ * @author javad talebi
  */
 @Data
 @Entity

@@ -24,6 +24,8 @@ import static org.mockito.Mockito.when;
 
 /**
  * Unit tests for {@link HourlyElectricityService}.
+ *
+ * @author javad talebi
  */
 public class HourlyElectricityServiceTest {
 

@@ -12,6 +12,8 @@ import java.io.Serializable;
 
 /**
  * Panel class hold information related to a Solar panel.
+ *
+ * @author javad talebi
  */
 @Data
 @Entity

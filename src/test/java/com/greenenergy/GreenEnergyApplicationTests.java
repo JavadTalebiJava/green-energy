@@ -1,9 +1,11 @@
 package com.greenenergy;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+/**
+ * @author javad talebi
+ */
 @SpringBootTest
-class GreenenergyApplicationTests {
+class GreenEnergyApplicationTests {
 
 }

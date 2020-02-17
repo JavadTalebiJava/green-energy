@@ -19,7 +19,9 @@ import java.util.List;
 import java.util.LongSummaryStatistics;
 
 /**
- * Job to consolidate on daily bases all the electricity generated.s
+ * Job to consolidate on daily bases all the electricity generated.
+ *
+ * @author javad talebi
  */
 @Component
 @ConditionalOnProperty(value = "greenenergy.scheduler.enabled", havingValue = "true", matchIfMissing = true)

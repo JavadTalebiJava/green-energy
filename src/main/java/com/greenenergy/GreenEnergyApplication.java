@@ -3,11 +3,16 @@ package com.greenenergy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * GreenEnergyApplication
+ *
+ * @author javad talebi
+ */
 @SpringBootApplication
-public class GreenenergyApplication {
+public class GreenEnergyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GreenenergyApplication.class, args);
+        SpringApplication.run(GreenEnergyApplication.class, args);
     }
 
 }

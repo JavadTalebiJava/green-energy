@@ -17,6 +17,9 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+/**
+ * @author javad talebi
+ */
 public class DailyElectricityAggregatorJobTest {
 
     private DailyElectricityAggregatorJob dailyElectricityAggregatorJob;
